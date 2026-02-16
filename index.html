@@ -3,29 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>세운상사몰 | 프리미엄 공구·산업자재 커머스</title>
+  <title>세운상사 공구 | 프리미엄 산업자재 커머스</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="/style.css" rel="stylesheet">
 </head>
 <body>
-  <div class="bg-noise" aria-hidden="true"></div>
+  <div class="bg-surface" aria-hidden="true"></div>
 
-  <header class="topbar">
+  <header class="topbar" id="topbar">
     <div class="topbar-inner">
       <div class="brand">
-        <span class="brand-mark">S</span>
+        <span class="brand-mark">SE</span>
         <div>
-          <div class="brand-name">세운상사몰</div>
-          <div class="brand-sub">Premium Industrial Commerce</div>
+          <div class="brand-name">세운상사 공구</div>
+          <div class="brand-sub">Seoun Industrial Commerce</div>
         </div>
       </div>
       <nav class="top-links">
         <a href="#">제품</a>
+        <a href="#">브랜드</a>
         <a href="#">기획전</a>
         <a href="#">기업구매</a>
-        <a href="#">서비스</a>
         <a href="#">고객지원</a>
       </nav>
       <div class="user-links">
@@ -54,11 +54,11 @@
   <main>
     <section class="hero">
       <div class="hero-copy" data-animate>
-        <p class="eyebrow">SEOUN INDUSTRIAL STORE</p>
-        <h1>현장에 필요한 모든 것을,
-          <span>정제된 경험으로 빠르게 연결합니다.</span>
+        <p class="eyebrow">PREMIUM TOOL MERCHANT</p>
+        <h1>현장의 기준을 바꾸는
+          <span>프리미엄 공구 셀렉션.</span>
         </h1>
-        <p class="lead">세운상사몰은 공구/자재/안전 장비를 한 번에 큐레이션해 납기와 비용을 동시에 최적화합니다.</p>
+        <p class="lead">세운상사 공구는 품목의 깊이, 납기의 속도, 공급의 정확도를 모두 갖춘 산업 전용 커머스입니다.</p>
         <div class="hero-actions">
           <a class="btn primary" href="#">견적 요청</a>
           <a class="btn ghost" href="#">기업 구매 상담</a>
@@ -69,25 +69,39 @@
             <div class="label">견적 회신</div>
           </div>
           <div class="stat">
-            <div class="value">1,500+</div>
-            <div class="label">상시 재고</div>
+            <div class="value">1,800+</div>
+            <div class="label">즉시 출고 재고</div>
           </div>
           <div class="stat">
-            <div class="value">98.7%</div>
+            <div class="value">99%</div>
             <div class="label">납기 준수</div>
           </div>
         </div>
       </div>
       <div class="hero-visual" data-animate>
-        <div class="visual-card primary">
-          <div class="visual-title">프리미엄 공구 기획전</div>
-          <div class="visual-sub">스마트 현장 운영을 위한 핵심 라인업</div>
-          <div class="visual-cta">지금 바로 보기</div>
+        <div class="hero-media" style="background-image: url('https://unsplash.com/photos/LK2kch3MiTY/download?force=true');">
+          <div class="hero-overlay">
+            <div class="hero-chip">프리미엄 셀렉션</div>
+            <h2>전동공구 · 절삭 · 안전
+              <span>현장 중심 패키지</span>
+            </h2>
+            <a class="link" href="#">기획전 보기</a>
+          </div>
         </div>
-        <div class="visual-card">
-          <div class="visual-title">산업 안전 솔루션</div>
-          <div class="visual-sub">현장 안전 기준에 맞춘 보호구 구독</div>
-          <div class="visual-cta">견적 요청</div>
+        <div class="hero-mini">
+          <div class="mini-card">
+            <div class="mini-title">이번 주 추천 브랜드</div>
+            <div class="mini-brands">
+              <span>SEWON</span>
+              <span>HANSUNG</span>
+              <span>HYMAX</span>
+              <span>DECO</span>
+            </div>
+          </div>
+          <div class="mini-card accent">
+            <div class="mini-title">프로젝트 전용 견적</div>
+            <p>라인별 수량, 납기, 납품 방식을 입력하면 48시간 내 실행안을 드립니다.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -109,97 +123,113 @@
       </div>
     </section>
 
-    <section class="banner" data-animate>
-      <div class="banner-text">
-        <h2>세운상사몰 프리미엄 딜</h2>
-        <p>현장 수요가 높은 품목을 집중 구성했습니다. 프로젝트 일정에 맞춰 즉시 공급합니다.</p>
-        <div class="banner-actions">
-          <a class="btn primary" href="#">기획전 보기</a>
-          <a class="btn ghost" href="#">대량 견적</a>
+    <section class="ad-film" data-animate>
+      <div class="ad-text">
+        <h2>세운상사 공구 광고 필름</h2>
+        <p>공식 사용 가능한 산업 영상 소재로 구성한 테스트용 프로모션 섹션입니다.</p>
+        <div class="ad-actions">
+          <a class="btn primary" href="#">필름 다운로드</a>
+          <a class="btn ghost" href="#">캠페인 문의</a>
         </div>
       </div>
-      <div class="banner-card">
-        <div class="badge">한정 수량</div>
-        <div class="price">최대 30% OFF</div>
-        <div class="sub">전동공구/안전/소모품</div>
+      <div class="ad-video">
+        <video autoplay muted loop playsinline poster="https://unsplash.com/photos/WhZ5pWTH4hM/download?force=true">
+          <source src="https://cdn.pixabay.com/video/2025/05/21/280479_large.mp4" type="video/mp4" />
+        </video>
+        <div class="ad-caption">Video source: Pixabay (Content License)</div>
       </div>
     </section>
 
-    <section class="products" data-animate>
-      <div class="section-title">
-        <h2>베스트 셀러</h2>
-        <p>기업 현장에서 가장 많이 선택한 인기 품목</p>
+    <section class="rail" data-animate>
+      <div class="rail-header">
+        <h2>오늘의 추천</h2>
+        <a href="#" class="link">더 보기</a>
       </div>
-      <div class="product-grid">
-        <article class="product">
-          <div class="thumb"></div>
-          <div class="meta">
+      <div class="rail-track">
+        <article class="product-card" style="--thumb: url('https://unsplash.com/photos/f0T-eGanP_4/download?force=true');">
+          <div class="product-thumb"></div>
+          <div class="product-meta">
             <div class="tag">즉시출고</div>
             <h3>고속 그라인더 125mm</h3>
             <p>강력 모터, 저진동 핸들</p>
             <div class="price">89,000원</div>
           </div>
         </article>
-        <article class="product">
-          <div class="thumb alt"></div>
-          <div class="meta">
+        <article class="product-card" style="--thumb: url('https://unsplash.com/photos/i0clSU4T_bU/download?force=true');">
+          <div class="product-thumb"></div>
+          <div class="product-meta">
             <div class="tag">베스트</div>
             <h3>충전 드릴 콤보 키트</h3>
             <p>배터리 2개 포함, 하드 케이스</p>
             <div class="price">179,000원</div>
           </div>
         </article>
-        <article class="product">
-          <div class="thumb"></div>
-          <div class="meta">
+        <article class="product-card" style="--thumb: url('https://unsplash.com/photos/WhZ5pWTH4hM/download?force=true');">
+          <div class="product-thumb"></div>
+          <div class="product-meta">
             <div class="tag">대량구매</div>
             <h3>안전모 + 보호안경 세트</h3>
             <p>현장 안전필수품 묶음</p>
             <div class="price">29,800원</div>
           </div>
         </article>
-        <article class="product">
-          <div class="thumb alt"></div>
-          <div class="meta">
+        <article class="product-card" style="--thumb: url('https://unsplash.com/photos/LK2kch3MiTY/download?force=true');">
+          <div class="product-thumb"></div>
+          <div class="product-meta">
             <div class="tag">특가</div>
             <h3>토크 렌치 1/2" 세트</h3>
             <p>정밀 체결 작업용</p>
             <div class="price">119,000원</div>
           </div>
         </article>
-        <article class="product">
-          <div class="thumb"></div>
-          <div class="meta">
-            <div class="tag">신상품</div>
-            <h3>레이저 거리 측정기</h3>
-            <p>최대 70m, 자동 보정</p>
-            <div class="price">69,000원</div>
-          </div>
-        </article>
-        <article class="product">
-          <div class="thumb alt"></div>
-          <div class="meta">
-            <div class="tag">즉시출고</div>
-            <h3>절삭 디스크 10장팩</h3>
-            <p>금속/석재 공용</p>
-            <div class="price">24,000원</div>
-          </div>
-        </article>
       </div>
     </section>
 
-    <section class="benefits" data-animate>
-      <div class="benefit">
-        <h3>당일 출고</h3>
-        <p>오전 주문 건은 최대한 당일 출고로 맞춥니다.</p>
+    <section class="split" data-animate>
+      <div class="split-card">
+        <div class="split-text">
+          <h2>브랜드 스포트라이트</h2>
+          <p>전문 브랜드 중심의 프리미엄 라인업을 한눈에.</p>
+          <a class="link" href="#">브랜드관 이동</a>
+        </div>
+        <div class="split-gallery">
+          <div class="gallery-item" style="background-image: url('https://unsplash.com/photos/i0clSU4T_bU/download?force=true');"></div>
+          <div class="gallery-item" style="background-image: url('https://unsplash.com/photos/f0T-eGanP_4/download?force=true');"></div>
+        </div>
       </div>
-      <div class="benefit">
-        <h3>현장 픽업</h3>
-        <p>세운상가에서 바로 수령 가능한 픽업 서비스.</p>
+      <div class="split-card dark">
+        <div class="split-text">
+          <h2>주간 랭킹</h2>
+          <p>현장 구매 수요 기반 TOP 5</p>
+          <ol class="ranking">
+            <li><span>01</span> 산업용 임팩트 드라이버</li>
+            <li><span>02</span> 안전모 올인원 패키지</li>
+            <li><span>03</span> 절삭 디스크 10장팩</li>
+            <li><span>04</span> 정밀 측정 레이저</li>
+            <li><span>05</span> 프리미엄 공구함 세트</li>
+          </ol>
+        </div>
       </div>
-      <div class="benefit">
-        <h3>기업 견적</h3>
-        <p>대량 구매/정기 납품 견적을 전담합니다.</p>
+    </section>
+
+    <section class="service" data-animate>
+      <div class="section-title">
+        <h2>기업 전용 서비스</h2>
+        <p>프로젝트 단위 구매부터 정기 납품까지 전담합니다.</p>
+      </div>
+      <div class="service-grid">
+        <article>
+          <h3>현장 납기 컨트롤</h3>
+          <p>프로젝트 일정 기반 공급 플랜 제안</p>
+        </article>
+        <article>
+          <h3>대량 구매 단가 협의</h3>
+          <p>수량별 가격 정책 및 세금계산서 지원</p>
+        </article>
+        <article>
+          <h3>전담 매니저 매칭</h3>
+          <p>품목 관리, 발주, 납품까지 일괄 대응</p>
+        </article>
       </div>
     </section>
 
@@ -217,7 +247,7 @@
 
   <footer class="footer">
     <div class="footer-info">
-      <div class="brand-line">세운상사몰</div>
+      <div class="brand-line">세운상사 공구</div>
       <div class="muted">서울 중구 세운상가 | 사업자등록번호 000-00-00000</div>
     </div>
     <div class="footer-links">
@@ -225,7 +255,7 @@
       <a href="#">개인정보처리방침</a>
       <a href="#">배송/교환</a>
     </div>
-    <div class="muted">Copyright © <span id="year"></span> Seoun Mall</div>
+    <div class="muted">Copyright © <span id="year"></span> Seoun Industrial</div>
   </footer>
 
   <script defer src="/main.js"></script>

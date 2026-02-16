@@ -19,3 +19,16 @@ if (animatedItems.length > 0) {
 
   animatedItems.forEach((item) => observer.observe(item));
 }
+
+const topbar = document.getElementById("topbar");
+if (topbar) {
+  const onScroll = () => {
+    if (window.scrollY > 8) {
+      topbar.classList.add("scrolled");
+    } else {
+      topbar.classList.remove("scrolled");
+    }
+  };
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+}
