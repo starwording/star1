@@ -3,32 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>세운상사몰 | 공구 · 산업자재 · 즉시출고</title>
+  <title>세운상사몰 | 프리미엄 공구·산업자재 커머스</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="/style.css" rel="stylesheet">
 </head>
 <body>
-  <div class="bg-swoosh" aria-hidden="true"></div>
+  <div class="bg-noise" aria-hidden="true"></div>
 
   <header class="topbar">
     <div class="topbar-inner">
       <div class="brand">
         <span class="brand-mark">S</span>
-        <span class="brand-name">세운상사몰</span>
+        <div>
+          <div class="brand-name">세운상사몰</div>
+          <div class="brand-sub">Premium Industrial Commerce</div>
+        </div>
       </div>
       <nav class="top-links">
-        <a href="#">베스트</a>
+        <a href="#">제품</a>
         <a href="#">기획전</a>
-        <a href="#">신상품</a>
         <a href="#">기업구매</a>
-        <a href="#">고객센터</a>
+        <a href="#">서비스</a>
+        <a href="#">고객지원</a>
       </nav>
       <div class="user-links">
         <a href="#">로그인</a>
         <a href="#">회원가입</a>
-        <a href="#">주문조회</a>
+        <a href="#">장바구니</a>
       </div>
     </div>
   </header>
@@ -37,27 +40,28 @@
     <div class="searchbar-inner">
       <button class="category-btn">전체 카테고리</button>
       <div class="search-input">
-        <input type="text" placeholder="필요한 공구/자재를 검색하세요" />
+        <input type="text" placeholder="브랜드, 모델명, 작업 분야로 검색" />
         <button class="search-btn">검색</button>
       </div>
       <div class="quick-actions">
         <a class="pill" href="#">오늘출고</a>
         <a class="pill" href="#">현장픽업</a>
-        <a class="pill" href="#">안전보호구</a>
+        <a class="pill" href="#">대량견적</a>
       </div>
     </div>
   </section>
 
   <main>
     <section class="hero">
-      <div class="hero-left" data-animate>
-        <p class="eyebrow">INDUSTRIAL COMMERCE</p>
-        <h1>현장에 바로 투입되는 공구몰.
-          <span>당일 출고, 매입 견적, 대량 공급까지.</span>
+      <div class="hero-copy" data-animate>
+        <p class="eyebrow">SEOUN INDUSTRIAL STORE</p>
+        <h1>현장에 필요한 모든 것을,
+          <span>정제된 경험으로 빠르게 연결합니다.</span>
         </h1>
+        <p class="lead">세운상사몰은 공구/자재/안전 장비를 한 번에 큐레이션해 납기와 비용을 동시에 최적화합니다.</p>
         <div class="hero-actions">
-          <a class="btn primary" href="#">견적 문의</a>
-          <a class="btn ghost" href="#">기업 전용 구매</a>
+          <a class="btn primary" href="#">견적 요청</a>
+          <a class="btn ghost" href="#">기업 구매 상담</a>
         </div>
         <div class="hero-stats">
           <div class="stat">
@@ -65,30 +69,34 @@
             <div class="label">견적 회신</div>
           </div>
           <div class="stat">
-            <div class="value">1,200+</div>
+            <div class="value">1,500+</div>
             <div class="label">상시 재고</div>
           </div>
           <div class="stat">
-            <div class="value">99.1%</div>
+            <div class="value">98.7%</div>
             <div class="label">납기 준수</div>
           </div>
         </div>
       </div>
-      <div class="hero-right" data-animate>
-        <div class="hero-card">
-          <div class="card-head">오늘의 긴급 배송</div>
-          <ul class="card-list">
-            <li>전동공구/커터/연마 즉시출고</li>
-            <li>현장 맞춤 세트 구성</li>
-            <li>안전·보호구 대량 납품</li>
-          </ul>
-          <div class="card-foot">오전 주문 당일 출고 가능</div>
+      <div class="hero-visual" data-animate>
+        <div class="visual-card primary">
+          <div class="visual-title">프리미엄 공구 기획전</div>
+          <div class="visual-sub">스마트 현장 운영을 위한 핵심 라인업</div>
+          <div class="visual-cta">지금 바로 보기</div>
+        </div>
+        <div class="visual-card">
+          <div class="visual-title">산업 안전 솔루션</div>
+          <div class="visual-sub">현장 안전 기준에 맞춘 보호구 구독</div>
+          <div class="visual-cta">견적 요청</div>
         </div>
       </div>
     </section>
 
     <section class="category" data-animate>
-      <h2>카테고리</h2>
+      <div class="section-title">
+        <h2>카테고리</h2>
+        <p>현장 효율을 높이는 핵심 품목을 엄선했습니다.</p>
+      </div>
       <div class="category-grid">
         <article>전동공구</article>
         <article>절삭/연마</article>
@@ -101,26 +109,26 @@
       </div>
     </section>
 
-    <section class="deal" data-animate>
-      <div class="deal-text">
-        <h2>세운상사몰 특가</h2>
-        <p>현장 수요를 반영한 핵심 품목을 집중 할인합니다.</p>
-        <div class="deal-actions">
-          <a class="btn primary" href="#">특가 바로가기</a>
-          <a class="btn ghost" href="#">견적 요청</a>
+    <section class="banner" data-animate>
+      <div class="banner-text">
+        <h2>세운상사몰 프리미엄 딜</h2>
+        <p>현장 수요가 높은 품목을 집중 구성했습니다. 프로젝트 일정에 맞춰 즉시 공급합니다.</p>
+        <div class="banner-actions">
+          <a class="btn primary" href="#">기획전 보기</a>
+          <a class="btn ghost" href="#">대량 견적</a>
         </div>
       </div>
-      <div class="deal-banner">
-        <div class="badge">오늘 마감</div>
+      <div class="banner-card">
+        <div class="badge">한정 수량</div>
         <div class="price">최대 30% OFF</div>
-        <div class="sub">전동공구/소모품/안전보호구</div>
+        <div class="sub">전동공구/안전/소모품</div>
       </div>
     </section>
 
     <section class="products" data-animate>
       <div class="section-title">
         <h2>베스트 셀러</h2>
-        <p>현장에서 가장 많이 선택되는 인기 품목</p>
+        <p>기업 현장에서 가장 많이 선택한 인기 품목</p>
       </div>
       <div class="product-grid">
         <article class="product">
